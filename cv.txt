@@ -1,29 +1,28 @@
-Name: Suresh kumar sharma.
+Name: 
+Suresh kumar sharma.
 
-Father's Name:sri Sabhapati sharma.
 
-Address: main road near sabji mandi renukoot up sonebhadra
+Father's Name:
+sri Sabhapati sharma.
+
+
+Address: 
+main road near sabji mandi renukoot up sonebhadra
           india
           Mo..+916386525840.
           Email..dk945780@gmail.com
 
 
+
 Education :  
-
-
-
-
 Secondry(x)
               U.P board
               year of completion 2003
               percentage 56.33%
 
 
+
 projects :    
-
-
-
-
 snake game   using html css javascript
 
               Audio player using html css javascript
@@ -31,8 +30,13 @@ snake game   using html css javascript
               tic tac toe game using html css javascript
 
 
-sckills :    html css javascript sql php c nodejs.
+
+
+sckills :    
+html css javascript sql php c nodejs.
              bootstrap  nodejs. wordprexx .....
+
+
 
 
 work sample : Blog link..
