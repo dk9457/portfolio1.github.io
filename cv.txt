@@ -39,9 +39,9 @@ html css javascript sql php c nodejs.
 
 
 
-work sample : Blog link..
-              Github profile...
-              Behance Portfolio link...
+work sample : Blog link-------https://dk9457.github.io/portfolio1.github.io/home.html
+              Github profile----https://github.com/dk9457/portfolio.github.io.git
+              Behance Portfolio link----https://dk9457.github.io/portfolio1.github.io/home.html
               Other Portfolio link...
 
 
