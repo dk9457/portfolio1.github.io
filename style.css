@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 15vw;
+    height: 100vh;
+    cursor: pointer;
+    background-color: rgb(192, 171, 171);
+    
+}
+.sidebar ul{
+    padding-top: 50px;
+}
+.main{
+    width: 85vw;
+}
+.infocontainer{
+    height: 78vh;
+    width: 80vw;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+}
+.sidebar nav ul li{
+    list-style: none;
+    font-size: 30px;
+    padding:15px 0px;
+}
+
+.sidebar a{
+    text-decoration: none;
+}
+.buttons button{
+    background-color:rgb(133, 123, 123);
+    color:aqua;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.picc{
+    height: 78vh;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 60px;
+
+}
+.name{
+ font-size: 40px;
+}
+.about{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.hammberg{
+    position:absolute;
+    display: none;
+}
+.cross{
+    position:absolute;
+    margin-left: 100px;
+}
+
+@media(max-width:550px){
+    .sidebar{
+        display: none;
+        position:absolute;
+        width: 100px;
+    }
+    .hammberg{
+        display: inline;
+    }
+    .cross{
+        display: none;
+    }
+}
+.myintro{padding-left: 20px;
+    background-color: rgb(137, 224, 224);
+    width: 95vw;
+    height: 100vh;
+}
+.service{padding-left: 10px;
+    background-color: rgb(137, 224, 224);
+    width: 95vw;
+    height: 100vh;
+    color: rgb(183, 27, 188);
+}
+.service div{
+    padding-top: 5px;}
+
+.contactme{
+    background-color: rgb(14, 194, 20);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
