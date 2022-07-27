@@ -82,7 +82,7 @@ height: 77vh;
   flex-direction: column;
   justify-content: center;
   position: fixed;
- bottom:4vh;
+ bottom:0vh;
   
 }
 
@@ -98,7 +98,7 @@ height: 77vh;
   justify-content: center;
 }
 .icon i{
-  padding: 0px 8px;
+  padding: 0px 0px 8px 0px;
 }
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
