@@ -20,7 +20,7 @@ audioelement.addEventListener(("timeupdate"),()=>
 let progress=parseInt((audioelement.currentTime/audioelement.duration)*100);
 myprogressbar.value=progress;
 });
-myprogressbar.addEventListener(("click"),()=>
+myprogressbar.addEventListener(("change"),()=>
 { 
     audioelement.currentTime=(myprogressbar.value*audioelement.duration)/100;
     
