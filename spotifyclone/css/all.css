@@ -82,6 +82,7 @@ height: 77vh;
   flex-direction: column;
   justify-content: center;
   position: fixed;
+ bottom:4vh;
   
 }
 
