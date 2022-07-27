@@ -83,5 +83,30 @@ refresh.addEventListener("click",()=>{
     window.location.reload(true);
 })
 
+ let up=document.querySelector(".up");
+ up.addEventListener("click",()=>{
+    direction.y=1;
+    x=0;
+ })
+ let down=document.querySelector(".down");
+ down.addEventListener("click",()=>{
+    direction.y=-1;
+    x=0;
+ })
+ let left=document.querySelector(".left");
+ left.addEventListener("click",()=>{
+    direction.x=01;
+    y=0;
+ })
+
+ let right=document.querySelector(".right");
+ right.addEventListener("click",()=>{
+    direction.x=-1;
+    y=0;
+ })
+
+
+
+
 
 
