@@ -4,9 +4,11 @@
  * Copyright 2022 Fonticons, Inc.
  */
  
- *{
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  
 }
 nav{
   width: 100vw;
@@ -39,33 +41,29 @@ margin-left: 45px;
 margin-top: 10px;
 font-size:20px;
 }
-
-
-
-
-
-
 .ccontainer{
-  width: 80vw;
-  height: 83vh;
+  width: 90vw;
+  height: 77vh;
   background-image: url("../bg.jpg");
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
-  margin: 2px 70px;
+  margin:2px auto;
+  
 }
 
 .ssonglist{
-  width: 300px;
-  height: 330px;
+  width: 40vw;
+height: 77vh;
   background-color:red;
-  padding-top: 20px;
+  padding-top: 13px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  
 }
 .ssong{
   display: flex;
-  margin-left: 10px;
+  margin-left: 9px;
   padding-top: 13px;
   margin-right: 5px;
 }
@@ -76,19 +74,15 @@ font-size:20px;
 .ssmalplay{
   cursor: pointer;
 }
-
-
-
-
 .bbottom{
   width: 100vw;
   height:10vh;
   background-color:rgb(39, 212, 212);
-  position: relative;
-  margin-top: -50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: fixed;
+  
 }
 
 .mmyprogressbar{
@@ -104,46 +98,6 @@ font-size:20px;
 }
 .icon i{
   padding: 0px 8px;
-}
-@media(max-width:800px){
-  .ccontainer{
-      height: 400px;
-  }
-  .ssonglist{
-      height: 320px;
-  }
-}
-
-@media(max-width:350px){
-  nav{
-      width: 200px;
-      height: 150px;
-  }
-  nav ul li{
-      position: absolute;
-  }
-  .first{
-   margin-top: 45px;
-   margin-left: 18px;
-  }
-  .second{
-   margin-top: 80px;
-   margin-left: 70px;
-  }
-  .third{
-     margin-top: 110px;
-     margin-left: 70px;
-  }
-  .ccontainer{
-      width: 200px;
-      height: 550px;
-      margin-left:0px;
-      background-color: aqua;
-  }
-  .ssonglist{
-      width: 200px;
-      height: 500px;
-  }
 }
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
